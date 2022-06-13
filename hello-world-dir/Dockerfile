@@ -2,7 +2,7 @@ FROM quay.io/projectquay/golang:1.17
 
 ADD src/hello-world.go hello-world.go
 
-ENV MESSAGE "Welcome! My Dear people to the dev world."
+ENV MESSAGE "Welcome! My Dear people to the dev world in director."
 ENV HOME /go
 
 RUN chgrp -R 0 /go && chmod -R g+rwX /go
